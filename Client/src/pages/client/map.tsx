@@ -3,7 +3,7 @@ import { useMemo } from "react";
 
 export default function Map() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyD8Ju-O68NBMNIPwArDNTkWTJwFODrRkAA",
+    googleMapsApiKey: "secretmapsAPIKey",
   });
 
   if (!isLoaded) return <div>Loading...</div>;
