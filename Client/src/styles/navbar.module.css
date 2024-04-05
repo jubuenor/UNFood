@@ -1,0 +1,42 @@
+.navbar{
+    background-color: white;
+}
+.navbar a{
+    color: #A63C6D;
+}
+.navbar a:hover{
+    color: #b27d96;
+}
+.navbar button{
+    color: white;
+    background-color: #A63C6D;
+    border-color: #A63C6D;
+}
+.navbar button:hover{
+    background-color: #FEEBF4;
+    color: #A63C6D;
+    border-color: #FEEBF4;
+}
+.navbar input{
+    background-color: #FEEBF4;
+}
+.navbar input::placeholder{
+    color: #A63C6D;
+}
+
+@media (min-width: 768px) {
+ .navbar form {
+    width: 50%;
+ }
+ .dropdown{
+    margin-right: 2rem !important;
+ }
+}
+@media (max-width: 767.98px){
+    .navbar form {
+        width: 100%;
+    }
+    .dropdown{
+        text-align: center;
+    }
+}

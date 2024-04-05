@@ -1,0 +1,29 @@
+[
+  {
+    "owner": "65161aa8b81179abab74bdf6",
+    "name": "Chaza de Juan Bello",
+    "description": "Venta de productos que te hacen volar.",
+    "type": 1,
+    "address": "Calle 1 # 123, Bogotá",
+    "phone": "+57 300 111 1111",
+    "products": []
+  },
+  {
+    "owner": "65161aa8b81179abab74bdf7",
+    "name": "sexchaza de Juan",
+    "description": "Venta de frutas y verduras frescas duras y jugosas.",
+    "type": 1,
+    "address": "Calle 123 #45-67",
+    "phone": "3001234567",
+    "products": []
+  },
+  {
+    "owner": "65161aa8b81179abab74bdf8",
+    "name": "Chaza de Jhon",
+    "description": "Venta de frutas y verduras frescas.",
+    "type": 1,
+    "address": "Calle 123 #45-67",
+    "phone": "3001234567",
+    "products": []
+  }
+]

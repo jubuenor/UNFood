@@ -1,0 +1,29 @@
+[
+  {
+    "username": "usuario1",
+    "name": "Juan",
+    "lastName": "Pérez",
+    "email": "juan@example.com",
+    "password": "contraseña1",
+    "address": "Calle 1 # 123, Bogotá",
+    "phone": "+57 300 111 1111"
+  },
+  {
+    "username": "usuario2",
+    "name": "Joe",
+    "lastName": "Doe",
+    "email": "juan@example.com",
+    "password": "contraseña1",
+    "address": "Calle 1 # 123, Bogotá",
+    "phone": "+57 300 111 1111"
+  },
+  {
+    "username": "usuario3",
+    "name": "Juan",
+    "lastName": "Pérez",
+    "email": "juan@example.com",
+    "password": "contraseña1",
+    "address": "Calle 1 # 123, Bogotá",
+    "phone": "+57 300 111 1111"
+  }
+]

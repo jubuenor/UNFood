@@ -1,0 +1,59 @@
+    .orderHistoryContainer {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        
+    }
+    .chart {
+        flex: 4;
+        -webkit-box-shadow: 2px 4px 20px 1px rgba(0, 0, 0, 0.47);
+        
+        padding: 10px;
+        color: blue;
+    }
+    
+    .chart .title {
+        margin-bottom: 15px;
+    }
+    
+    .chart .chartGrid {
+        stroke: rgb(228, 225, 225);
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .NooTooMuch{
+        font-weight: 200;
+    }
+    .stats h1 {
+        font-size: 48px;
+        margin: 0;
+    }
+
+    .stats p {
+        font-size: 18px;
+        color: #888888;
+    }
+
+    .decrease {
+        color: red;
+    }
+
+    .legend {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .currentWeek {
+        color: blue;
+    }
+
+    .lastWeek {
+        color: gray;
+    }

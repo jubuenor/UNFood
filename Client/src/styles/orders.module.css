@@ -1,0 +1,13 @@
+.orders{
+    padding-top: 66px;
+}
+
+@media (min-width: 768px) {
+    .orders{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media (max-width: 767.98px){
+}
+

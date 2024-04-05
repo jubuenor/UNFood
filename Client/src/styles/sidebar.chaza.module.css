@@ -1,0 +1,46 @@
+.sidebar_chaza{
+    background-color: #A63C6D ;
+    width: 200px;
+}
+
+.sidebar_chaza a{
+    text-decoration: none;
+    color: white ;
+}
+.sidebar_chaza a:hover{
+    background-color: #FCC8E1;
+    color: #A63C6D;
+}
+.img_container{
+    position: unset!important;
+}
+.fondo{
+    object-fit: contain;
+    position: relative !important;
+    height: unset !important;
+}
+@media (min-width: 768px) {
+    .sidebar_chaza{
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .fondo{
+        width: 200px !important;
+    }
+}
+@media (max-width: 767.98px){
+    .sidebar_chaza{
+        width: 100%;
+        flex-direction: row;
+    }
+    .fondo{
+        height: 100px !important;
+        width: 100% !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  
+}

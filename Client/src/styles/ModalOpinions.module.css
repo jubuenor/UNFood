@@ -1,0 +1,39 @@
+.stars{
+    cursor:pointer; 
+}
+
+.star5:hover{
+    color: yellow;
+}
+
+.star4:hover{
+    color: yellow;
+}
+
+.star4:hover ~ div{
+    color: yellow;
+}
+
+.star3:hover{
+    color: yellow;
+}
+
+.star3:hover ~ div{
+    color: yellow;
+}
+
+.star2:hover{
+    color: yellow;
+}
+ 
+.star2:hover ~ div{
+    color: yellow;
+}
+
+.star1:hover{
+    color: yellow;
+}
+
+.star1:hover ~ div{
+    color: yellow;
+}

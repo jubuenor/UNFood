@@ -1,0 +1,141 @@
+.products {
+  padding-top: 66px;
+  margin: auto;
+}
+
+.products button {
+  background-color: #a63c6d;
+  border-color: #a63c6d;
+  color: white;
+}
+
+.products button:hover {
+  background-color: #feebf4;
+  color: #a63c6d;
+  border-color: #feebf4;
+}
+.products button:active {
+  background-color: #feebf4;
+  color: #a63c6d;
+  border-color: #feebf4;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.product_card_body {
+  height: 208px;
+}
+
+.product_card_body {
+  height: 208px;
+}
+
+.product_card_body div {
+  height: 104px;
+}
+
+.product_card {
+  width: 18rem;
+  height: 420px;
+  transition-duration: 0.2s;
+}
+.product_card:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.1);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a63c6d;
+}
+
+.product_card a {
+  background-color: #a63c6d;
+  color: white;
+}
+
+.product_detail button {
+  background-color: #a63c6d;
+  border-color: #a63c6d;
+  color: white;
+}
+
+.product_detail button:hover {
+  background-color: #feebf4;
+  color: #a63c6d;
+  border-color: #feebf4;
+}
+.product_detail button:active {
+  background-color: #feebf4;
+  color: #a63c6d;
+  border-color: #feebf4;
+}
+.img_container img {
+  object-fit: contain;
+  width: 80% !important;
+  position: relative !important;
+  height: unset !important;
+}
+.img_container {
+  position: unset !important;
+}
+/*comment*/
+
+.home_chaza {
+  height: 100%;
+  padding-top: 66px;
+}
+.sidebar_filters {
+  background-color: white;
+  text-align: left;
+}
+.sidebar_filters button {
+  background-color: white;
+  color: #a63c6d;
+}
+.filter_type {
+  border-bottom: #a63c6d solid 1px;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+.filter_type span {
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .sidebar_filters {
+    height: 100%;
+    width: 384px;
+    max-width: 384px;
+  }
+  .home_chaza {
+    display: flex;
+  }
+  .home_chaza h1 {
+    font-size: 40px;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  .info textarea {
+    height: 100px;
+  }
+  .payment {
+    display: flex;
+  }
+}
+@media (max-width: 767.98px) {
+  .sidebar_filters {
+    width: 100%;
+  }
+  .home_chaza h1 {
+    font-size: 1.875rem;
+  }
+
+  .info textarea {
+    height: 200px;
+  }
+}

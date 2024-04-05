@@ -1,0 +1,41 @@
+/* stock.dashboard.module.css */
+
+/* Contenedor principal */
+.stockContainerB {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los items horizontalmente */
+    align-items: center; /* Centra los items verticalmente */
+    gap: 10px; /* Espacio entre los círculos */
+    padding: 10px; /* Espacio dentro del contenedor */
+    max-width: 100%; /* Asegura que el contenedor no sea más ancho que su contenedor padre */
+    background-color: #f5f5f5; /* Color de fondo del contenedor */
+    border-radius: 10px; /* Bordes redondeados del contenedor */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil para el contenedor */
+  }
+  
+  /* Elemento de stock individual */
+  .stockItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    color: white;
+    font-size: 0.8em; /* Tamaño de la fuente */
+    text-align: center; /* Alinea el texto al centro */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra para el círculo */
+    margin: 5px; /* Margen alrededor de los círculos */
+  }
+  
+  /* Cantidad de stock en el círculo */
+  .stockQuantity {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  /* Nombre del producto en el círculo */
+  .stockProduct {
+    margin-top: 5px; /* Espacio entre la cantidad y el nombre del producto */
+  }
+  

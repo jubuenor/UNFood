@@ -1,0 +1,120 @@
+.home_chaza{
+  height: 100%;
+  padding-top: 66px;
+}
+.home_chaza h1{
+  color: #550A2D;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bolder;
+}
+
+.home_chaza button:hover{
+  color: #550A2D;
+  background-color: #A63C6D ;
+  border-color: #550A2D;
+}
+.info input{
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+.info textarea{
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */ 
+}
+
+.info label{
+  color: #A63C6D;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  
+}
+.sidebar_chaza_store {
+  background-color: white;
+  border-right: #A63C6D 1px solid;
+  text-align: center;
+}
+.sidebar_chaza_store button{
+  text-decoration: none;
+  font-weight: bold;
+  color: #a63c6d;
+  border-radius: 0px;
+  width: 100%;
+}
+.sidebar_chaza_store button:hover{
+  background-color: #f1f0f0;
+  font-weight: bold;
+  color: #a63c6d;
+  border-left: 10px solid #a63c6d;
+  border-right: 1px solid #a63c6d;
+  
+}
+
+.card {
+    text-align-last: left;
+    color: #979797;
+    font-size: 1rem;
+}
+.info {
+    border-bottom: #A63C6D 1px solid;
+}
+.info label{
+    color: #A63C6D;
+    font-size: 1rempx;
+    font-style: normal;
+}
+
+.img_container{
+  position: unset!important; 
+  width: 100%;
+}
+.img_container img{
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+@media (min-width: 768px) {
+  
+  .sidebar_chaza_store{
+    height: 100%;
+    width: 384px;
+    max-width: 384px;
+  }
+  .home_chaza{
+      display: flex;
+  }
+  .home_chaza h1{
+      font-size: 40px;
+  }
+
+  .title{
+      display: flex;
+      align-items: center;
+  }
+  .info textarea{
+      height: 100px;
+  }
+  .payment{
+      display: flex;
+  }
+}
+@media (max-width: 767.98px){
+  .sidebar_chaza_store{
+    width: 100%;
+  }
+  .home_chaza h1{
+      font-size: 1.875rem;
+  }
+  
+  .info textarea{
+      height: 200px;
+  }
+
+}

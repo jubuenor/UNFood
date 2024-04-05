@@ -1,0 +1,85 @@
+.navbar{
+    background-color: #550A2D;
+    color: white;
+}
+.img_container{
+    position: unset!important; 
+    width: 100%;
+}
+.img_container img{
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+}
+.home_chaza{
+    height: 100%;
+}
+
+.home_chaza h1{
+    color: #550A2D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: bolder;
+}
+.home_chaza button{
+    color: white;
+    background-color: #550A2D;
+    border-color: #550A2D;
+}
+.home_chaza button:hover{
+    color: #550A2D;
+    background-color: #A63C6D ;
+    border-color: #550A2D;
+}
+.info input{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+.info textarea{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */ 
+}
+
+.info label{
+    color: #A63C6D;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    
+}
+
+
+@media (min-width: 768px) {
+    .home_chaza{
+        display: flex;
+    }
+    .home_chaza h1{
+        font-size: 2.5rem;
+    }
+
+    .title{
+        display: flex;
+        align-items: center;
+    }
+    .info textarea{
+        height: 100px;
+    }
+    .payment{
+        display: flex;
+    }
+}
+@media (max-width: 767.98px){
+    .home_chaza h1{
+        font-size: 1.875rem;
+    }
+    
+    .info textarea{
+        height: 200px;
+    }
+
+}

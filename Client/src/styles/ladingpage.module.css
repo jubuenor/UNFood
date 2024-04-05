@@ -1,0 +1,109 @@
+
+.landing{
+    background-color: #550A2D;
+}
+.landing h1{
+    color: white;
+    font-weight: bolder;
+
+}
+.landing p{
+    color: #A63C6D;
+    font-weight: bolder;
+}
+.landingbtn{
+    background-color: #A63C6D;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.landingbtn:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+}
+
+.aboutus{
+   background-color: #A63C6D; 
+}
+.aboutus h1{
+    color: white;
+    font-weight: bolder;
+}
+.aboutus p{
+    color: #550A2D;
+    font-weight: 400;
+
+}
+.aboutus img{
+    object-fit: contain;
+    width: 80% !important;
+    position: relative !important;
+    height: unset !important;
+}
+.img_container{
+    position: unset!important;
+}
+.footer{
+    background-color: #550A2D;
+}
+
+
+@media (min-width: 768px) {
+    .landing{
+        padding-top: 76px;
+    }
+    .landing h1{
+        font-size: 10rem;
+    }
+    .landing p{
+        font-size: 2.813rem;
+    }
+    .landingbtn{
+        width: 606px;
+        height: 157px;
+    }
+    .aboutus h1{
+        font-size: 5rem;
+    }
+    .aboutus img{
+        width: 457!important;
+        height: 279!important;
+    }
+    .aboutus p{
+        font-size: 1.875rem;
+    }
+    .landingbtn{
+        font-size: 3.75rem;
+    }
+}
+@media (max-width: 767.98px){
+    .landing{
+        padding-top: 32px;
+    }
+    .landing h1{
+        font-size: 4.5rem;
+    }
+    .landing p{
+        font-size: 2rem;
+    }
+    .landingbtn{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .aboutus h1{
+        font-size: 2.5rem;
+    }
+    .aboutus img{
+        width: 327!important;
+        height: 200!important;
+    }
+    .aboutus p{
+        font-size: 1.5rem;
+    }
+    .landingbtn{
+        font-size: 2rem;
+    }
+}

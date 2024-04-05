@@ -1,0 +1,232 @@
+[
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "Hamburguesa Clásica",
+    "description": "Deliciosa hamburguesa con carne, lechuga y tomate.",
+    "price": 15000,
+    "image": "https://ejemplo.com/hamburguesa.jpg",
+    "category": 1,
+    "stock": 100,
+    "total_sales": 50
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Pizza Pepperoni",
+    "description": "Pizza con pepperoni y queso fundido.",
+    "price": 22000,
+    "image": "https://ejemplo.com/pizza.jpg",
+    "category": 1,
+    "stock": 75,
+    "total_sales": 30
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127ab",
+    "name": "Tacos de Pollo",
+    "description": "Tacos de pollo con salsa y guarniciones.",
+    "price": 18000,
+    "image": "https://ejemplo.com/tacos.jpg",
+    "category": 2,
+    "stock": 50,
+    "total_sales": 25
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "Sushi Variado",
+    "description": "Surtido de sushi fresco y delicioso.",
+    "price": 25000,
+    "image": "https://ejemplo.com/sushi.jpg",
+    "category": 3,
+    "stock": 60,
+    "total_sales": 40
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Pasta Carbonara",
+    "description": "Plato de pasta con salsa carbonara y bacon.",
+    "price": 18000,
+    "image": "https://ejemplo.com/pasta.jpg",
+    "category": 4,
+    "stock": 70,
+    "total_sales": 20
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127ab",
+    "name": "Ensalada César",
+    "description": "Ensalada con lechuga, pollo a la parrilla y aderezo César.",
+    "price": 12000,
+    "image": "https://ejemplo.com/ensalada.jpg",
+    "category": 5,
+    "stock": 80,
+    "total_sales": 40
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "Parrillada Argentina",
+    "description": "Selección de carnes a la parrilla con chimichurri.",
+    "price": 28000,
+    "image": "https://ejemplo.com/parrillada.jpg",
+    "category": 2,
+    "stock": 40,
+    "total_sales": 15
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Tacos de Pescado",
+    "description": "Tacos de pescado fresco con salsa de aguacate.",
+    "price": 20000,
+    "image": "https://ejemplo.com/tacos_pescado.jpg",
+    "category": 3,
+    "stock": 25,
+    "total_sales": 10
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "Lasagna de Carne",
+    "description": "Lasagna casera de carne molida y queso ricotta.",
+    "price": 19000,
+    "image": "https://ejemplo.com/lasagna.jpg",
+    "category": 4,
+    "stock": 35,
+    "total_sales": 18
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Ensalada de Frutas",
+    "description": "Ensalada fresca de frutas tropicales.",
+    "price": 8000,
+    "image": "https://ejemplo.com/ensalada_frutas.jpg",
+    "category": 5,
+    "stock": 50,
+    "total_sales": 22
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127ab",
+    "name": "Sándwich de Pavo",
+    "description": "Sándwich de pavo con lechuga, tomate y mostaza.",
+    "price": 10000,
+    "image": "https://ejemplo.com/sandwich_pavo.jpg",
+    "category": 1,
+    "stock": 60,
+    "total_sales": 25
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "Sopa de Tomate",
+    "description": "Sopa de tomate casera con crutones.",
+    "price": 9000,
+    "image": "https://ejemplo.com/sopa_tomate.jpg",
+    "category": 3,
+    "stock": 45,
+    "total_sales": 12
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Galletas Oreo",
+    "description": "Galletas rellenas de crema de vainilla y chocolate.",
+    "price": 8000,
+    "image": "https://ejemplo.com/oreo.jpg",
+    "category": 6,
+    "stock": 80,
+    "total_sales": 60
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "Coca-Cola",
+    "description": "Refresco carbonatado de cola.",
+    "price": 3500,
+    "image": "https://ejemplo.com/cocacola.jpg",
+    "category": 7,
+    "stock": 120,
+    "total_sales": 90
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Chips Ahoy!",
+    "description": "Galletas con trozos de chocolate.",
+    "price": 6500,
+    "image": "https://ejemplo.com/chipsahoy.jpg",
+    "category": 6,
+    "stock": 65,
+    "total_sales": 40
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Lay's Papas Fritas",
+    "description": "Papas fritas crujientes y saladas.",
+    "price": 4500,
+    "image": "https://ejemplo.com/lays.jpg",
+    "category": 8,
+    "stock": 100,
+    "total_sales": 70
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "KitKat",
+    "description": "Barra de chocolate crujiente.",
+    "price": 2500,
+    "image": "https://ejemplo.com/kitkat.jpg",
+    "category": 6,
+    "stock": 55,
+    "total_sales": 35
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Red Bull",
+    "description": "Bebida energética.",
+    "price": 6000,
+    "image": "https://ejemplo.com/redbull.jpg",
+    "category": 7,
+    "stock": 40,
+    "total_sales": 25
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127ab",
+    "name": "Galletas Chips Ahoy!",
+    "description": "Galletas con trozos de chocolate.",
+    "price": 3500,
+    "image": "https://ejemplo.com/chips_ahoy.jpg",
+    "category": 6,
+    "stock": 60,
+    "total_sales": 40
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "Donas Glaseadas",
+    "description": "Donas esponjosas con glaseado dulce.",
+    "price": 2500,
+    "image": "https://ejemplo.com/donas.jpg",
+    "category": 6,
+    "stock": 80,
+    "total_sales": 55
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Helado de Vainilla",
+    "description": "Helado suave de vainilla en cono.",
+    "price": 4000,
+    "image": "https://ejemplo.com/helado.jpg",
+    "category": 6,
+    "stock": 45,
+    "total_sales": 30
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127aa",
+    "name": "Café Latte",
+    "description": "Café espresso con leche caliente y espuma.",
+    "price": 4500,
+    "image": "https://ejemplo.com/cafe_latte.jpg",
+    "category": 10,
+    "stock": 70,
+    "total_sales": 60
+  },
+  {
+    "chaza_id": "65161dd290b0d2b13b1127a9",
+    "name": "Tarta de Manzana",
+    "description": "Tarta casera de manzana con canela.",
+    "price": 6000,
+    "image": "https://ejemplo.com/tarta_manzana.jpg",
+    "category": 11,
+    "stock": 35,
+    "total_sales": 25
+  }
+]

@@ -1,0 +1,14 @@
+.home_chaza{
+    height: 100%;
+}
+.home_chaza button{
+    color: white;
+    background-color: #550A2D;
+    border-color: #550A2D;
+}
+@media (min-width: 768px) {
+    .home_chaza{
+        display: flex;
+    }
+    
+}
